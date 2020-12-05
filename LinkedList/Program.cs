@@ -17,6 +17,8 @@ namespace LinkedList
       linkedList.Add(4);
       linkedList.Add(5);
 
+      linkedList.InsertAfter(4, 7);
+
       foreach (var item in linkedList)
       {
         Console.WriteLine(item.ToString());

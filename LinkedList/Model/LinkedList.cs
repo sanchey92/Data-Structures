@@ -1,6 +1,5 @@
 using System.Collections;
 
-
 namespace LinkedList.Model
 {
   public class LinkedList<T> : IEnumerable
@@ -44,7 +43,7 @@ namespace LinkedList.Model
 
     public void Delete(T data)
     {
-      if (Head == null) return;
+      if (Head == null) SetHeadAndTail(data);
 
       if (Head.Data.Equals(data))
       {
@@ -73,10 +72,22 @@ namespace LinkedList.Model
     public void InsertAfter(T target, T data)
     {
       if (Head == null) return;
-
-      if (Head.Data.Equals(target))
+      var current = Head;
+     
+      while (current != null) 
       {
-        
+        var item = new Item<T>(data);
+        if (current.Data.Equals(target))
+        {
+          item.Next = current.Next;
+          current.Next = item;
+          Count++;
+          return;
+        }
+        else
+        {
+          current = current.Next;
+        }
       }
     }
 
