@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplexLinkedList", "DuplexLinkedList\DuplexLinkedList.csproj", "{821CBE98-68EC-459E-8B9C-0164DD524B3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{B138B5E4-24E5-4E4B-9825-40362FFBF485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{821CBE98-68EC-459E-8B9C-0164DD524B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821CBE98-68EC-459E-8B9C-0164DD524B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{821CBE98-68EC-459E-8B9C-0164DD524B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B138B5E4-24E5-4E4B-9825-40362FFBF485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B138B5E4-24E5-4E4B-9825-40362FFBF485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B138B5E4-24E5-4E4B-9825-40362FFBF485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B138B5E4-24E5-4E4B-9825-40362FFBF485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
