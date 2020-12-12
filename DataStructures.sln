@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set", "Set\Set.csproj", "{FE0874BE-0F7E-49DF-B7D0-0549F411EE82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{3E5F05DC-3824-4EF0-9D52-D36A8461F74E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FE0874BE-0F7E-49DF-B7D0-0549F411EE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0874BE-0F7E-49DF-B7D0-0549F411EE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0874BE-0F7E-49DF-B7D0-0549F411EE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5F05DC-3824-4EF0-9D52-D36A8461F74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5F05DC-3824-4EF0-9D52-D36A8461F74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5F05DC-3824-4EF0-9D52-D36A8461F74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5F05DC-3824-4EF0-9D52-D36A8461F74E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
