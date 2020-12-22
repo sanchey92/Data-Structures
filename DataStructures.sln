@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinaryS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", "{264E89E4-AC83-463F-BA44-352579A627A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryHeap", "BinaryHeap\BinaryHeap.csproj", "{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{264E89E4-AC83-463F-BA44-352579A627A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264E89E4-AC83-463F-BA44-352579A627A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264E89E4-AC83-463F-BA44-352579A627A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
