@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryHeap", "BinaryHeap\BinaryHeap.csproj", "{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{2D9B1239-C87A-4B17-B36E-E195E0890708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13EE5DFF-0CF9-46B0-A1A2-0C6F20F18AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9B1239-C87A-4B17-B36E-E195E0890708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9B1239-C87A-4B17-B36E-E195E0890708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9B1239-C87A-4B17-B36E-E195E0890708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9B1239-C87A-4B17-B36E-E195E0890708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
